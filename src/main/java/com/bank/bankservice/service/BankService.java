@@ -6,7 +6,9 @@ import com.bank.bankservice.model.MonthlyStatementRequest;
 import com.bank.bankservice.repository.AccountRepository;
 import com.bank.bankservice.repository.StatementRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class BankService {
 
     @Autowired
